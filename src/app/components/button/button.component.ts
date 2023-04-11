@@ -11,6 +11,6 @@ export class ButtonComponent {
   @Output() btnClick = new EventEmitter<string>();
 
   onClick() {
-    this.btnClick.emit;
+    this.btnClick.emit();
   }
 }

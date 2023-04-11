@@ -9,4 +9,8 @@ export class HeaderComponent {
   title: string = 'task-manager';
   currentText = 'Add Task'
   newColor = 'green'
+
+  toggleAddTask(){
+    console.log("toggled")
+  }
 }
